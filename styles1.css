@@ -1,0 +1,176 @@
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    min-width: 400px;
+    border-radius: 25px;
+    /**background: radial-gradient(#1fe4f5,#3fbafe);*/
+    /**-webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 33px 41px 37px 38px rgba(255,255,255,0); 
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 33px 41px 37px 38px rgba(255,255,255,0);
+    background: #2B543D; */
+    margin-top:2%;
+    border: 1px solid white;
+    padding: 30px;
+    padding-top: 10px;
+    padding-right: 00px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: white;
+    font-weight: lighter;
+}
+
+p, a {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: white;
+    font-weight: lighter;
+}
+
+h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: white;
+    font-weight: lighter;
+}
+
+body {
+    /** background-image:url("futureTile.jpg");
+     background-size: 500px 500px; */
+     background-color:black;
+     max-width: 100vw;
+     box-sizing: border-box;
+     margin:0px;
+ }
+ 
+header {
+    border-bottom: 1px solid white;
+    padding: 10px;
+    padding-left: 30px;
+    /* margin-left: -10px;
+    margin-right: -20px; */
+    margin-top: 0px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex: 2;
+    /**background: linear-gradient(#4682b4,#c0c0c0); */
+    background-color:black;
+    position: relative;
+
+}
+
+footer {
+    background-color: cornflowerblue;
+} 
+
+
+.menu {
+
+    height: 100%;
+    width: 220px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: black;
+    border-right: 1px solid #FFFFFF;
+    margin-top: 1em;
+    bottom:0;
+}
+
+.bodyItem {
+    display: flex;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+.buttons {
+    display: flex;
+    height: 40px;
+    margin-right: 60px;
+    margin-top: 20px;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    justify-content: right;
+  }
+
+  #slide {
+    width: 360px;
+    height: 277.25px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+
+.linkedin {
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    margin-left: 30px;
+}
+
+.email {
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.github {
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    margin-right: 5px;
+
+}
+
+#whatYoullFind {
+    margin-left: 10%;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+#title {
+    font-size: 32px;
+}
